@@ -1,8 +1,5 @@
 # frozen_string_literal: true
 
-# require './player.rb'
-# require './question.rb'
-
 class Game
   attr_accessor :players, :round, :player_turn
   def initialize
@@ -66,6 +63,6 @@ class Game
       header('GAME OVER')
       puts 'GOODBYE!'
 
-    end
+      end
   end
 end
